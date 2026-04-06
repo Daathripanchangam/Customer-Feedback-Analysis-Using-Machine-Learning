@@ -2,13 +2,12 @@
 
 #Overview
 
-This project is a Streamlit-based web application that analyzes customer feedback (Amazon Alexa reviews) and predicts whether the sentiment is **Positive or Negative** using multiple Machine Learning models.
+This project is a Streamlit-based web application that analyzes customer feedback on Amazon Alexa reviews and predicts whether the sentiment is Positive or Negative using multiple Machine Learning models.
 
 It also provides model evaluation metrics, dynamic confusion matrix, and word cloud visualizations for better insights.
 
----
 
-#Features
+# 🚀Features
 
 * 🔍 Sentiment Prediction
     * Predicts whether a review is Positive or Negative
@@ -16,7 +15,7 @@ It also provides model evaluation metrics, dynamic confusion matrix, and word cl
 
 * 📊 Model Evaluation
     * Accuracy, Precision, Recall, F1 Score (2×2 layout)
-    * Dynamic Confusion Matrix (no static images)
+    * Dynamic Confusion Matrix 
 
 * ☁️ Word Cloud Visualization
     * All reviews
@@ -24,7 +23,7 @@ It also provides model evaluation metrics, dynamic confusion matrix, and word cl
     * Negative reviews
 
 * ⚡Smart Training System
-    * Models are trained **only once**
+    * Models are trained only once
     * Automatically retrains if dataset changes (hash-based detection)
 
 # 🧠 Machine Learning Models Used
@@ -73,9 +72,9 @@ pip install streamlit pandas scikit-learn matplotlib seaborn xgboost wordcloud
 ```
 
 ▶️ Run the Application
-    ```
-    streamlit run streamlit_app.py
-    ```
+```
+streamlit run streamlit_app.py
+```
 
 🔄 How It Works
 
