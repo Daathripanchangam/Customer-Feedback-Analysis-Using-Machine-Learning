@@ -36,6 +36,7 @@ It also provides model evaluation metrics, dynamic confusion matrix, and word cl
 
 #🗂️ Project Structure
 
+```
 📁 project-folder
 │
 ├── streamlit_app.py        # Main application file
@@ -50,7 +51,7 @@ It also provides model evaluation metrics, dynamic confusion matrix, and word cl
 │   └── data_hash.txt
 │
 └── README.md
-
+```
 
 #⚙️ Installation
 
@@ -62,13 +63,19 @@ cd project-folder
 ```
 
 2️⃣ Install dependencies
+    ```
     pip install -r requirements.txt
+    ```
 
 Or manually install:
-    pip install streamlit pandas scikit-learn matplotlib seaborn xgboost wordcloud
+```
+pip install streamlit pandas scikit-learn matplotlib seaborn xgboost wordcloud
+```
 
 ▶️ Run the Application
+    ```
     streamlit run streamlit_app.py
+    ```
 
 🔄 How It Works
 
