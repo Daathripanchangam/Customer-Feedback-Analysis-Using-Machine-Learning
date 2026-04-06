@@ -64,7 +64,7 @@ cd project-folder
 
 2️⃣ Install dependencies
 ```
-pip install -r requirements.txt
+pip install -r req.txt
 ```
 
 Or manually install:
